@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/img_fondo"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ver_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:onClick="verLista"
+        android:text="@string/ver_lista"
+
+        android:translationY="190"
+        app:backgroundTint="#FFC107" />
+
+    <Button
+        android:id="@+id/boton_nuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:onClick="ingresarItem"
+        android:text="Ingresar Nuevo Producto"
+        android:translationY="150"
+        app:backgroundTint="#FFC107" />
+
+    <Button
+        android:id="@+id/boton_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:onClick="eliminarItem"
+        android:text="Eliminar Agotados"
+        android:translationY="110"
+        app:backgroundTint="#FFC107" />
+
+</RelativeLayout>
